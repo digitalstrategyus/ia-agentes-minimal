@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agentes de IA — Minimal</title>
+    <meta name="description" content="Colección minimalista de agentes de IA en una interfaz negra elegante." />
+    <meta name="theme-color" content="#0b0b0f" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span class="brand-name">Agentes de IA</span>
+      </a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#agentes">Agentes</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto" class="cta">Contactar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Presentación">
+        <h1>Inteligencia en su forma más simple</h1>
+        <p>Una colección minimalista de agentes de IA listos para integrar en tus flujos y productos.</p>
+        <div class="actions">
+          <a class="btn primary" href="#agentes">Ver agentes</a>
+          <a class="btn ghost" href="#contacto">Contactar</a>
+        </div>
+      </section>
+
+      <section id="agentes" class="agents" aria-label="Agentes">
+        <ul class="grid">
+          <li class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </div>
+            <h3>Asistente</h3>
+            <p>Responde, resume y actúa sobre tus datos.</p>
+            <button class="chip" type="button" data-agent="Asistente">Probar</button>
+            <a class="chip" href="asistente.html" aria-label="Detalles de Asistente">Detalles</a>
+          </li>
+          <li class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.5" />
+                <path d="M12 4v8l5 5" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </div>
+            <h3>Analista</h3>
+            <p>Explora métricas, patrones y anomalías en tiempo real.</p>
+            <button class="chip" type="button" data-agent="Analista">Probar</button>
+            <a class="chip" href="analista.html" aria-label="Detalles de Analista">Detalles</a>
+          </li>
+          <li class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M4 12h16M8 7h8M8 17h8" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </div>
+            <h3>Redactor</h3>
+            <p>Genera contenido claro y en el tono de tu marca.</p>
+            <button class="chip" type="button" data-agent="Redactor">Probar</button>
+            <a class="chip" href="redactor.html" aria-label="Detalles de Redactor">Detalles</a>
+          </li>
+          <li class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </div>
+            <h3>Explorador</h3>
+            <p>Investiga fuentes y sintetiza conocimiento accionable.</p>
+            <button class="chip" type="button" data-agent="Explorador">Probar</button>
+            <a class="chip" href="explorador.html" aria-label="Detalles de Explorador">Detalles</a>
+          </li>
+          <li class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <rect x="4" y="6" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5" />
+                <path d="M4 10h16" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </div>
+            <h3>Guardián</h3>
+            <p>Políticas, revisión y cumplimiento automático.</p>
+            <button class="chip" type="button" data-agent="Guardián">Probar</button>
+            <a class="chip" href="guardian.html" aria-label="Detalles de Guardián">Detalles</a>
+          </li>
+          <li class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M6 12h12M8 8l-2 4 2 4M16 8l2 4-2 4" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+            </div>
+            <h3>Orquestador</h3>
+            <p>Combina herramientas y flujos multi‑agente.</p>
+            <button class="chip" type="button" data-agent="Orquestador">Probar</button>
+            <a class="chip" href="orquestador.html" aria-label="Detalles de Orquestador">Detalles</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="beneficios" class="features" aria-label="Beneficios">
+        <ul class="feature-grid">
+          <li>
+            <h4>Rápido</h4>
+            <p>Interfaz ligera enfocada en la acción.</p>
+          </li>
+          <li>
+            <h4>Seguro</h4>
+            <p>Controles y privacidad por defecto.</p>
+          </li>
+          <li>
+            <h4>Extensible</h4>
+            <p>Integra APIs y herramientas en minutos.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contacto" class="contact" aria-label="Contacto">
+        <div class="contact-card">
+          <h4>¿Listo para construir?</h4>
+          <p>Escríbenos a <a href="mailto:hola@minimal.agents">hola@minimal.agents</a></p>
+          <a class="btn primary" href="mailto:hola@minimal.agents">Empezar</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2025 Minimal Agents</span>
+      <div class="links">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+      </div>
+    </footer>
+
+    <output id="toast" aria-live="polite" aria-atomic="true"></output>
+    <script src="script.js" defer></script>
+  </body>
+</html>
